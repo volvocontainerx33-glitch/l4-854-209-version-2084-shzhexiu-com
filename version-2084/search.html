@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>影片搜索-日韩精选电影</title>
+  <meta name="description" content="搜索日韩精选电影片单中的影片名称、类型、年份、地区与标签。">
+  <meta name="keywords" content="日韩精选电影,日韩电影,精选影片,电影片单,高清影片,在线观看">
+  <meta name="robots" content="index,follow">
+  <link rel="stylesheet" href="./assets/base.css">
+  <link rel="stylesheet" href="./assets/site.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="site-container header-inner">
+    <a class="brand" href="./index.html" aria-label="日韩精选电影">
+      <span class="brand-mark">▶</span>
+      <span class="brand-copy">
+        <strong>日韩精选电影</strong>
+        <small>高清影片在线观看</small>
+      </span>
+    </a>
+    <form class="header-search" action="./search.html" method="get">
+      <input type="search" name="q" placeholder="搜索电影名称、类型、地区" autocomplete="off">
+      <button type="submit">搜索</button>
+    </form>
+    <nav class="desktop-nav" aria-label="主导航">
+      <a class="nav-link" href="./index.html">首页</a>
+      <a class="nav-link" href="./categories.html">分类</a>
+      <a class="nav-link" href="./rank.html">排行榜</a>
+      <a class="nav-link is-active" href="./search.html">搜索</a>
+    </nav>
+    <button class="menu-toggle" type="button" aria-label="打开菜单">☰</button>
+  </div>
+  <nav class="mobile-nav" aria-label="移动导航">
+    <a class="mobile-nav-link" href="./index.html">首页</a>
+    <a class="mobile-nav-link" href="./categories.html">分类</a>
+    <a class="mobile-nav-link" href="./rank.html">排行榜</a>
+    <a class="mobile-nav-link is-active" href="./search.html">搜索</a>
+  </nav>
+</header>
+<main>
+  <section class="page-hero">
+    <div class="site-container">
+      <p class="eyebrow">Search</p>
+      <h1>影片搜索</h1>
+      <p>输入影片名称、类型、地区、年份或标签，快速查找对应影片详情与播放入口。</p>
+      <form class="search-page-form" action="./search.html" method="get">
+        <input id="searchPageInput" type="search" name="q" placeholder="搜索影片" autocomplete="off">
+        <button type="submit">搜索</button>
+      </form>
+    </div>
+  </section>
+  <section class="site-container section-block">
+    <div id="searchSummary" class="search-summary">热门推荐</div>
+    <div id="searchResults" class="movie-grid compact-grid">
+<a class="movie-card movie-card-compact" href="./movie-1.html" data-title="性福特训班" data-genre="喜剧 / 爱情" data-tags="中年夫妻 婚姻咨询 尴尬爆笑" data-region="美国">
+  <span class="poster-wrap">
+    <img src="./1.jpg" alt="性福特训班" loading="lazy">
+    <span class="card-badge">美国</span>
+    <span class="card-year">2024</span>
+    <span class="card-play">播放</span>
+  </span>
+  <span class="card-body">
+    <strong>性福特训班</strong>
+    <span class="card-meta">喜剧 / 爱情</span>
+    <span class="card-desc">结婚十五年的老夫老妻为了拯救无性婚姻，报名了一个极其荒诞的“实操型”周末特训班。</span>
+    <span class="tag-row"><span>中年夫妻</span><span>婚姻咨询</span><span>尴尬爆笑</span></span>
+  </span>
+</a>
+<a class="movie-card movie-card-compact" href="./movie-2.html" data-title="青春暗流" data-genre="犯罪 / 剧情" data-tags="校园霸凌 底层逆袭 灰色地带 暴力美学" data-region="中国台湾">
+  <span class="poster-wrap">
+    <img src="./2.jpg" alt="青春暗流" loading="lazy">
+    <span class="card-badge">中国台湾</span>
+    <span class="card-year">2024</span>
+    <span class="card-play">播放</span>
+  </span>
+  <span class="card-body">
+    <strong>青春暗流</strong>
+    <span class="card-meta">犯罪 / 剧情</span>
+    <span class="card-desc">贫困转校生为了不被欺凌，主动抱紧校霸大腿，却一步步被卷入贩毒漩涡，再也无法回头。</span>
+    <span class="tag-row"><span>校园霸凌</span><span>底层逆袭</span><span>灰色地带</span></span>
+  </span>
+</a>
+<a class="movie-card movie-card-compact" href="./movie-3.html" data-title="墙里的声音" data-genre="悬疑 / 惊悚" data-tags="古宅 心理恐怖 遗产阴谋 听觉诡计" data-region="美国">
+  <span class="poster-wrap">
+    <img src="./3.jpg" alt="墙里的声音" loading="lazy">
+    <span class="card-badge">美国</span>
+    <span class="card-year">2023</span>
+    <span class="card-play">播放</span>
+  </span>
+  <span class="card-body">
+    <strong>墙里的声音</strong>
+    <span class="card-meta">悬疑 / 惊悚</span>
+    <span class="card-desc">搬进百年老宅的第一晚，她听到墙内传出自己明天的日记。</span>
+    <span class="tag-row"><span>古宅</span><span>心理恐怖</span><span>遗产阴谋</span></span>
+  </span>
+</a>
+<a class="movie-card movie-card-compact" href="./movie-4.html" data-title="上海滩生死较量" data-genre="年代 / 谍战 / 动作" data-tags="上海滩 帮派 抗日 双面间谍 动作" data-region="中国大陆">
+  <span class="poster-wrap">
+    <img src="./4.jpg" alt="上海滩生死较量" loading="lazy">
+    <span class="card-badge">中国大陆</span>
+    <span class="card-year">2023</span>
+    <span class="card-play">播放</span>
+  </span>
+  <span class="card-body">
+    <strong>上海滩生死较量</strong>
+    <span class="card-meta">年代 / 谍战 / 动作</span>
+    <span class="card-desc">1937年的上海滩，一个码头苦力冒充已死的帮派大佬，混进了日军情报中心。</span>
+    <span class="tag-row"><span>上海滩</span><span>帮派</span><span>抗日</span></span>
+  </span>
+</a>
+<a class="movie-card movie-card-compact" href="./movie-5.html" data-title="马孔多" data-genre="魔幻现实主义、剧情" data-tags="家族 宿命 暴雨 孤独" data-region="哥伦比亚">
+  <span class="poster-wrap">
+    <img src="./5.jpg" alt="马孔多" loading="lazy">
+    <span class="card-badge">哥伦比亚</span>
+    <span class="card-year">2027</span>
+    <span class="card-play">播放</span>
+  </span>
+  <span class="card-body">
+    <strong>马孔多</strong>
+    <span class="card-meta">魔幻现实主义、剧情</span>
+    <span class="card-desc">马孔多被一场持续十年的暴雨淹没，水面下浮起整个家族的秘密。</span>
+    <span class="tag-row"><span>家族</span><span>宿命</span><span>暴雨</span></span>
+  </span>
+</a>
+<a class="movie-card movie-card-compact" href="./movie-6.html" data-title="乡村爱情变奏曲" data-genre="剧情 / 喜剧 / 爱情" data-tags="乡村 黑色幽默 婚姻 权力更迭 荒诞" data-region="中国大陆">
+  <span class="poster-wrap">
+    <img src="./6.jpg" alt="乡村爱情变奏曲" loading="lazy">
+    <span class="card-badge">中国大陆</span>
+    <span class="card-year">2026</span>
+    <span class="card-play">播放</span>
+  </span>
+  <span class="card-body">
+    <strong>乡村爱情变奏曲</strong>
+    <span class="card-meta">剧情 / 喜剧 / 爱情</span>
+    <span class="card-desc">村主任选举在即，三对夫妻却同时闹出离婚风波，整个村子乱成一锅粥。</span>
+    <span class="tag-row"><span>乡村</span><span>黑色幽默</span><span>婚姻</span></span>
+  </span>
+</a>
+<a class="movie-card movie-card-compact" href="./movie-7.html" data-title="普朗克常数" data-genre="科幻 / 哲理 / 剧情" data-tags="量子 意识 选择 平行 烧脑" data-region="德国">
+  <span class="poster-wrap">
+    <img src="./7.jpg" alt="普朗克常数" loading="lazy">
+    <span class="card-badge">德国</span>
+    <span class="card-year">2025</span>
+    <span class="card-play">播放</span>
+  </span>
+  <span class="card-body">
+    <strong>普朗克常数</strong>
+    <span class="card-meta">科幻 / 哲理 / 剧情</span>
+    <span class="card-desc">一个理论物理学家发现，每一次选择都会分裂宇宙，而他必须把所有自己杀光。</span>
+    <span class="tag-row"><span>量子</span><span>意识</span><span>选择</span></span>
+  </span>
+</a>
+<a class="movie-card movie-card-compact" href="./movie-8.html" data-title="会考风波" data-genre="剧情, 喜剧" data-tags="青春 校园 家庭冲突 励志" data-region="中国大陆">
+  <span class="poster-wrap">
+    <img src="./8.jpg" alt="会考风波" loading="lazy">
+    <span class="card-badge">中国大陆</span>
+    <span class="card-year">2022</span>
+    <span class="card-play">播放</span>
+  </span>
+  <span class="card-body">
+    <strong>会考风波</strong>
+    <span class="card-meta">剧情, 喜剧</span>
+    <span class="card-desc">一场全城瞩目的模拟会考泄题事件，让四位不同背景的高三学生被迫结成秘密同盟。</span>
+    <span class="tag-row"><span>青春</span><span>校园</span><span>家庭冲突</span></span>
+  </span>
+</a>
+<a class="movie-card movie-card-compact" href="./movie-9.html" data-title="法网追凶" data-genre="犯罪 / 悬疑" data-tags="刑侦 黑客 冤案 高科技犯罪 双雄" data-region="中国大陆">
+  <span class="poster-wrap">
+    <img src="./9.jpg" alt="法网追凶" loading="lazy">
+    <span class="card-badge">中国大陆</span>
+    <span class="card-year">2025</span>
+    <span class="card-play">播放</span>
+  </span>
+  <span class="card-body">
+    <strong>法网追凶</strong>
+    <span class="card-meta">犯罪 / 悬疑</span>
+    <span class="card-desc">一个被开除的刑警队长，联手一个坐过牢的天才黑客，用违法的方式追查令整个警局都沉默的真相。</span>
+    <span class="tag-row"><span>刑侦</span><span>黑客</span><span>冤案</span></span>
+  </span>
+</a>
+<a class="movie-card movie-card-compact" href="./movie-10.html" data-title="妲己不是坏狐狸 漫动画" data-genre="喜剧 / 奇幻 / 恋爱" data-tags="颠覆神话 职场 女强人" data-region="中国大陆">
+  <span class="poster-wrap">
+    <img src="./10.jpg" alt="妲己不是坏狐狸 漫动画" loading="lazy">
+    <span class="card-badge">中国大陆</span>
+    <span class="card-year">2021</span>
+    <span class="card-play">播放</span>
+  </span>
+  <span class="card-body">
+    <strong>妲己不是坏狐狸 漫动画</strong>
+    <span class="card-meta">喜剧 / 奇幻 / 恋爱</span>
+    <span class="card-desc">妲己穿越到现代成为职场女魔头，纣王投胎成了她的00后实习生，天天被她骂。</span>
+    <span class="tag-row"><span>颠覆神话</span><span>职场</span><span>女强人</span></span>
+  </span>
+</a>
+<a class="movie-card movie-card-compact" href="./movie-11.html" data-title="大唐诗圣" data-genre="传记, 历史, 剧情" data-tags="杜甫 安史之乱 诗人 现实主义" data-region="中国大陆">
+  <span class="poster-wrap">
+    <img src="./11.jpg" alt="大唐诗圣" loading="lazy">
+    <span class="card-badge">中国大陆</span>
+    <span class="card-year">2025</span>
+    <span class="card-play">播放</span>
+  </span>
+  <span class="card-body">
+    <strong>大唐诗圣</strong>
+    <span class="card-meta">传记, 历史, 剧情</span>
+    <span class="card-desc">他一生都在逃难，却用诗歌把整个乱世钉进了史书。</span>
+    <span class="tag-row"><span>杜甫</span><span>安史之乱</span><span>诗人</span></span>
+  </span>
+</a>
+<a class="movie-card movie-card-compact" href="./movie-12.html" data-title="绝唱" data-genre="剧情 / 音乐 / 家庭" data-tags="民歌 非遗 母女 传承 告别" data-region="中国大陆">
+  <span class="poster-wrap">
+    <img src="./12.jpg" alt="绝唱" loading="lazy">
+    <span class="card-badge">中国大陆</span>
+    <span class="card-year">2025</span>
+    <span class="card-play">播放</span>
+  </span>
+  <span class="card-body">
+    <strong>绝唱</strong>
+    <span class="card-meta">剧情 / 音乐 / 家庭</span>
+    <span class="card-desc">国家级民歌传承人被告知只剩三个月听力，她要教会从未开口唱歌的女儿最后一支哭嫁歌。</span>
+    <span class="tag-row"><span>民歌</span><span>非遗</span><span>母女</span></span>
+  </span>
+</a>
+<a class="movie-card movie-card-compact" href="./movie-13.html" data-title="马特奥" data-genre="剧情, 惊悚" data-tags="双胞胎 身份互换 心理 秘密 背叛" data-region="西班牙">
+  <span class="poster-wrap">
+    <img src="./13.jpg" alt="马特奥" loading="lazy">
+    <span class="card-badge">西班牙</span>
+    <span class="card-year">2019</span>
+    <span class="card-play">播放</span>
+  </span>
+  <span class="card-body">
+    <strong>马特奥</strong>
+    <span class="card-meta">剧情, 惊悚</span>
+    <span class="card-desc">弟弟冒用失踪哥哥马特奥的身份进入黑帮，却发现哥哥根本没失踪，而是设局要杀他。</span>
+    <span class="tag-row"><span>双胞胎</span><span>身份互换</span><span>心理</span></span>
+  </span>
+</a>
+<a class="movie-card movie-card-compact" href="./movie-14.html" data-title="情欲告白" data-genre="爱情 / 情色 / 剧情" data-tags="婚外情 信件 中年危机 女性欲望 文学改编" data-region="法国">
+  <span class="poster-wrap">
+    <img src="./14.jpg" alt="情欲告白" loading="lazy">
+    <span class="card-badge">法国</span>
+    <span class="card-year">2023</span>
+    <span class="card-play">播放</span>
+  </span>
+  <span class="card-body">
+    <strong>情欲告白</strong>
+    <span class="card-meta">爱情 / 情色 / 剧情</span>
+    <span class="card-desc">一位哲学教授与年轻诗人的书信往来，逐渐撕开她压抑二十年的婚姻假面。</span>
+    <span class="tag-row"><span>婚外情</span><span>信件</span><span>中年危机</span></span>
+  </span>
+</a>
+<a class="movie-card movie-card-compact" href="./movie-15.html" data-title="恋爱中的城市" data-genre="爱情 / 奇幻" data-tags="平行时空 城市规划师 告白诅咒 巴黎 地图" data-region="日本 / 法国">
+  <span class="poster-wrap">
+    <img src="./15.jpg" alt="恋爱中的城市" loading="lazy">
+    <span class="card-badge">日本 / 法国</span>
+    <span class="card-year">2025</span>
+    <span class="card-play">播放</span>
+  </span>
+  <span class="card-body">
+    <strong>恋爱中的城市</strong>
+    <span class="card-meta">爱情 / 奇幻</span>
+    <span class="card-desc">一位能看见“恋爱能量”的城市规划师，必须拆除巴黎中心一座阻断爱情流的老旧高架桥。</span>
+    <span class="tag-row"><span>平行时空</span><span>城市规划师</span><span>告白诅咒</span></span>
+  </span>
+</a>
+<a class="movie-card movie-card-compact" href="./movie-16.html" data-title="重启人生" data-genre="奇幻 / 剧情 / 生活" data-tags="轮回 日常系 治愈 人生重来" data-region="日本">
+  <span class="poster-wrap">
+    <img src="./16.jpg" alt="重启人生" loading="lazy">
+    <span class="card-badge">日本</span>
+    <span class="card-year">2024</span>
+    <span class="card-play">播放</span>
+  </span>
+  <span class="card-body">
+    <strong>重启人生</strong>
+    <span class="card-meta">奇幻 / 剧情 / 生活</span>
+    <span class="card-desc">32岁的普通上班族意外身亡后，出现在一片纯白空间里，管理员让她选择带着记忆重新投胎。</span>
+    <span class="tag-row"><span>轮回</span><span>日常系</span><span>治愈</span></span>
+  </span>
+</a>
+<a class="movie-card movie-card-compact" href="./movie-17.html" data-title="奈克瑟斯奥特曼" data-genre="科幻、动作、剧情" data-tags="奥特曼 成人向 连续剧 牺牲与传承 暗黑风" data-region="日本">
+  <span class="poster-wrap">
+    <img src="./17.jpg" alt="奈克瑟斯奥特曼" loading="lazy">
+    <span class="card-badge">日本</span>
+    <span class="card-year">2024</span>
+    <span class="card-play">播放</span>
+  </span>
+  <span class="card-body">
+    <strong>奈克瑟斯奥特曼</strong>
+    <span class="card-meta">科幻、动作、剧情</span>
+    <span class="card-desc">多位适能者继承奥特曼的光，每变身一次都会消耗生命力，而他们要面对的不仅仅是怪兽，更是人性之暗。</span>
+    <span class="tag-row"><span>奥特曼</span><span>成人向</span><span>连续剧</span></span>
+  </span>
+</a>
+<a class="movie-card movie-card-compact" href="./movie-18.html" data-title="第25号座位" data-genre="悬疑 / 恐怖 / 心理" data-tags="都市传说 地铁 替身 心理惊悚" data-region="日本">
+  <span class="poster-wrap">
+    <img src="./18.jpg" alt="第25号座位" loading="lazy">
+    <span class="card-badge">日本</span>
+    <span class="card-year">2026</span>
+    <span class="card-play">播放</span>
+  </span>
+  <span class="card-body">
+    <strong>第25号座位</strong>
+    <span class="card-meta">悬疑 / 恐怖 / 心理</span>
+    <span class="card-desc">深夜最后一班地铁的25号座位，凡是坐上去的人，都会在第二天被一个长相一模一样的人取代人生。</span>
+    <span class="tag-row"><span>都市传说</span><span>地铁</span><span>替身</span></span>
+  </span>
+</a>
+<a class="movie-card movie-card-compact" href="./movie-19.html" data-title="女神的子宫" data-genre="奇幻 / 剧情" data-tags="生育 神迹 女性身体" data-region="墨西哥 / 西班牙">
+  <span class="poster-wrap">
+    <img src="./19.jpg" alt="女神的子宫" loading="lazy">
+    <span class="card-badge">墨西哥 / 西班牙</span>
+    <span class="card-year">2023</span>
+    <span class="card-play">播放</span>
+  </span>
+  <span class="card-body">
+    <strong>女神的子宫</strong>
+    <span class="card-meta">奇幻 / 剧情</span>
+    <span class="card-desc">不孕的考古学家挖出一尊史前丰产女神像，之后她的梦里开始出现无数未出生婴儿的集体意志。</span>
+    <span class="tag-row"><span>生育</span><span>神迹</span><span>女性身体</span></span>
+  </span>
+</a>
+<a class="movie-card movie-card-compact" href="./movie-20.html" data-title="针孔世界" data-genre="悬疑, 惊悚, 科技伦理" data-tags="偷窥 隐私 反转" data-region="美国">
+  <span class="poster-wrap">
+    <img src="./20.jpg" alt="针孔世界" loading="lazy">
+    <span class="card-badge">美国</span>
+    <span class="card-year">2021</span>
+    <span class="card-play">播放</span>
+  </span>
+  <span class="card-body">
+    <strong>针孔世界</strong>
+    <span class="card-meta">悬疑, 惊悚, 科技伦理</span>
+    <span class="card-desc">她安装了一个智能监控系统，却通过镜头发现——自己才是那个被全楼邻居窥视的猎物。</span>
+    <span class="tag-row"><span>偷窥</span><span>隐私</span><span>反转</span></span>
+  </span>
+</a>
+<a class="movie-card movie-card-compact" href="./movie-21.html" data-title="激情炎岭" data-genre="剧情, 冒险, 生存" data-tags="火山学家 夫妻搭档 真实事件改编 末日美学" data-region="法国 / 加拿大">
+  <span class="poster-wrap">
+    <img src="./21.jpg" alt="激情炎岭" loading="lazy">
+    <span class="card-badge">法国 / 加拿大</span>
+    <span class="card-year">2022</span>
+    <span class="card-play">播放</span>
+  </span>
+  <span class="card-body">
+    <strong>激情炎岭</strong>
+    <span class="card-meta">剧情, 冒险, 生存</span>
+    <span class="card-desc">一对火山学家夫妻深入即将喷发的火山口，用生命的最后48小时拍下改变地质学历史的影像。</span>
+    <span class="tag-row"><span>火山学家</span><span>夫妻搭档</span><span>真实事件改编</span></span>
+  </span>
+</a>
+<a class="movie-card movie-card-compact" href="./movie-22.html" data-title="远离关闭的门" data-genre="剧情 / 悬疑 / 心理" data-tags="密室 伊朗社会 女性困境 心理压迫" data-region="伊朗 / 法国">
+  <span class="poster-wrap">
+    <img src="./22.jpg" alt="远离关闭的门" loading="lazy">
+    <span class="card-badge">伊朗 / 法国</span>
+    <span class="card-year">2020</span>
+    <span class="card-play">播放</span>
+  </span>
+  <span class="card-body">
+    <strong>远离关闭的门</strong>
+    <span class="card-meta">剧情 / 悬疑 / 心理</span>
+    <span class="card-desc">一个伊朗女人被丈夫关在房间里整整七年，一扇从未关闭的门是她唯一的希望和恐惧。</span>
+    <span class="tag-row"><span>密室</span><span>伊朗社会</span><span>女性困境</span></span>
+  </span>
+</a>
+<a class="movie-card movie-card-compact" href="./movie-23.html" data-title="昨夜情深" data-genre="爱情， 剧情" data-tags="都市 一夜情 遗憾 文艺 90年代" data-region="中国香港">
+  <span class="poster-wrap">
+    <img src="./23.jpg" alt="昨夜情深" loading="lazy">
+    <span class="card-badge">中国香港</span>
+    <span class="card-year">1995</span>
+    <span class="card-play">播放</span>
+  </span>
+  <span class="card-body">
+    <strong>昨夜情深</strong>
+    <span class="card-meta">爱情， 剧情</span>
+    <span class="card-desc">在兰桂坊的一夜激情后，一对男女约定永不联系，命运却安排他们在彼此最狼狈的时候一次次重逢。</span>
+    <span class="tag-row"><span>都市</span><span>一夜情</span><span>遗憾</span></span>
+  </span>
+</a>
+<a class="movie-card movie-card-compact" href="./movie-24.html" data-title="腌黄瓜先生第二季" data-genre="动画 / 喜剧 / 恐怖" data-tags="黑色幽默 恶搞 血腥 邪典" data-region="美国">
+  <span class="poster-wrap">
+    <img src="./24.jpg" alt="腌黄瓜先生第二季" loading="lazy">
+    <span class="card-badge">美国</span>
+    <span class="card-year">2016</span>
+    <span class="card-play">播放</span>
+  </span>
+  <span class="card-body">
+    <strong>腌黄瓜先生第二季</strong>
+    <span class="card-meta">动画 / 喜剧 / 恐怖</span>
+    <span class="card-desc">一条会魔法的腊肠犬继续用极端暴力手段守护它那弱智的主人一家。</span>
+    <span class="tag-row"><span>黑色幽默</span><span>恶搞</span><span>血腥</span></span>
+  </span>
+</a>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="site-container footer-inner">
+    <a class="footer-brand" href="./index.html">日韩精选电影</a>
+    <div class="footer-links">
+      <a href="./categories.html">分类片单</a>
+      <a href="./rank.html">热度排行</a>
+      <a href="./search.html">影片搜索</a>
+    </div>
+    <p>© 2026 日韩精选电影 · 高清影片在线观看</p>
+  </div>
+</footer>
+  <script src="./assets/site.js"></script>
+  <script src="./assets/search-index.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
